@@ -27,11 +27,11 @@ const PropertyDetails = () => {
             {property.type}
           </div>
           <div className='bg-violet-500 rounded-full text-white px-3 inline-block'>
-            {property.country}
+            {property.city}
           </div>
         </div>
         <div className='text-3xl font-semibold text-violet-600'>
-          $ {property.price}
+          ₦ {property.price}
         </div>
       </div>
       <div className='flex flex-col items-start gap-8 lg:flex-row'>
@@ -40,14 +40,18 @@ const PropertyDetails = () => {
             <img src={property.imageLg} alt='' />
           </div>
           <div className='flex gap-x-6 text-violet-700 mb-6'>
+            {property.bedrooms && (
             <div className='flex gap-x-2 items-center'>
               <BiBed className='text-2xl' />
               <div className='text-lg font-medium'>{property.bedrooms}</div>
             </div>
+            )}
+            {property.bathrooms && (
             <div className='flex gap-x-2 items-center'>
               <BiBath className='text-2xl' />
               <div className='text-lg font-medium'>{property.bathrooms}</div>
             </div>
+            )}
             <div className='flex gap-x-2 items-center'>
               <BiArea className='text-2xl' />
               <div className='text-lg font-medium'>{property.surface}</div>
@@ -58,7 +62,7 @@ const PropertyDetails = () => {
         <div className='flex-1 w-full mb-8 bg-white border border-gray-300 rounded-lg px-6 py-8'>
           <div className='flex items-center gap-x-4 mb-8'>
             <div className='w-20 h-20 p-1 border border-gray-300 rounded-full'>
-              <img src={property.agent.image}></img>
+              <img src={property.agent.image} alt='agent-thumb'></img>
             </div>
             <div>
               <div className='font-bold text-lg'>{property.agent.name}</div>
@@ -96,9 +100,10 @@ const PropertyDetails = () => {
               >
                 Send message
               </button>
-              <button className='border border-violet-700 text-violet-700 hover:border-purple-600 hover:text-purple-600 rounded p-4 text-sm w-full transition'>
+              <a href="tel:+2348137152040" className='flex justify-center items-center gap-2 md:gap-1 border border-violet-700 text-violet-700 hover:border-purple-600 hover:text-purple-600 rounded p-4 text-sm w-full transition'>
+                <BiPhone className='text-2xl' />
                 Call
-              </button>
+              </a>
             </div>
           </form>
         </div>

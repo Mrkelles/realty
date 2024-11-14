@@ -1,16 +1,12 @@
-import React from 'react';
-
-// import link
 import { Link } from 'react-router-dom';
-// import logo
-import Logo from '../assets/img/logo.svg';
+
 
 const Header = () => {
   return (
-    <header className='py-6 mb-12 border-b'>
+    <header className='py-2 mb-10 border-b'>
       <div className='container mx-auto flex justify-between items-center'>
         <Link to='/'>
-          <img src={Logo} alt='' />
+          <img src="https://i.imgur.com/ToZMnh3.png" alt='logo' height={75} width={75} />
         </Link>
         <div className='flex items-center gap-6'>
           <Link className='hover:text-violet-900 transition' to='/'>

@@ -9,8 +9,8 @@ export const HouseContext = createContext();
 // provider
 const HouseContextProvider = ({ children }) => {
   const [houses, setHouses] = useState(housesData);
-  const [country, setCountry] = useState('Location (any)');
-  const [countries, setCountries] = useState([]);
+  const [city, setCity] = useState('Location (any)');
+  const [cities, setCities] = useState([]);
   const [property, setProperty] = useState('Property type (any)');
   const [properties, setProperties] = useState([]);
   const [price, setPrice] = useState('Price range (any)');
@@ -18,15 +18,15 @@ const HouseContextProvider = ({ children }) => {
 
   useEffect(() => {
     // return all countries
-    const allCountries = houses.map((house) => {
-      return house.country;
+    const allCities = houses.map((house) => {
+      return house.city;
     });
 
     // remove duplicates
-    const uniqueCountries = ['Location (any)', ...new Set(allCountries)];
+    const uniqueCities = ['Location (any)', ...new Set(allCities)];
 
     // set countries state
-    setCountries(uniqueCountries);
+    setCities(uniqueCities);
   }, []);
 
   useEffect(() => {
@@ -58,7 +58,7 @@ const HouseContextProvider = ({ children }) => {
       const housePrice = parseInt(house.price);
       // all values are selected
       if (
-        house.country === country &&
+        house.city === city &&
         house.type === property &&
         housePrice >= minPrice &&
         housePrice <= maxPrice
@@ -66,35 +66,35 @@ const HouseContextProvider = ({ children }) => {
         return house;
       }
       // all values are default
-      if (isDefault(country) && isDefault(property) && isDefault(price)) {
+      if (isDefault(city) && isDefault(property) && isDefault(price)) {
         return house;
       }
       // country is not default
-      if (!isDefault(country) && isDefault(property) && isDefault(price)) {
-        return house.country === country;
+      if (!isDefault(city) && isDefault(property) && isDefault(price)) {
+        return house.country === city;
       }
       // property is not default
-      if (!isDefault(property) && isDefault(country) && isDefault(price)) {
+      if (!isDefault(property) && isDefault(city) && isDefault(price)) {
         return house.type === property;
       }
       // price is not default
-      if (!isDefault(price) && isDefault(country) && isDefault(property)) {
+      if (!isDefault(price) && isDefault(city) && isDefault(property)) {
         if (housePrice >= minPrice && housePrice <= maxPrice) {
           return house;
         }
       }
       // country and property is not default
-      if (!isDefault(country) && !isDefault(property) && isDefault(price)) {
-        return house.country === country && house.type === property;
+      if (!isDefault(city) && !isDefault(property) && isDefault(price)) {
+        return house.city === city && house.type === property;
       }
       // country and price is not default
-      if (!isDefault(country) && isDefault(property) && !isDefault(price)) {
+      if (!isDefault(city) && isDefault(property) && !isDefault(price)) {
         if (housePrice >= minPrice && housePrice <= maxPrice) {
-          return house.country === country;
+          return house.city === city;
         }
       }
       // property and price is not default
-      if (isDefault(country) && !isDefault(property) && !isDefault(price)) {
+      if (isDefault(city) && !isDefault(property) && !isDefault(price)) {
         if (housePrice >= minPrice && housePrice <= maxPrice) {
           return house.type === property;
         }
@@ -112,9 +112,9 @@ const HouseContextProvider = ({ children }) => {
   return (
     <HouseContext.Provider
       value={{
-        country,
-        setCountry,
-        countries,
+        city,
+        setCity,
+        cities,
         property,
         setProperty,
         properties,
