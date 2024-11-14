@@ -11,7 +11,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -29,7 +29,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -47,7 +47,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -65,7 +65,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -83,7 +83,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -101,7 +101,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -119,7 +119,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -137,7 +137,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -155,7 +155,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -173,7 +173,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -191,7 +191,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -209,7 +209,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -227,7 +227,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -245,7 +245,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -263,7 +263,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -281,7 +281,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -299,7 +299,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -317,7 +317,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -335,7 +335,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',
@@ -353,7 +353,7 @@ export const housesData = [
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
     surface: '100 sq ft',
-    price: '1,500,000',
+    price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
       name: 'Oello Realtors',

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header className='py-2 mb-10 border-b'>
-      <div className='container mx-auto flex justify-between items-center'>
+      <div className='container mx-auto flex justify-between items-center'> 
         <Link to='/'>
           <img src="https://i.imgur.com/ToZMnh3.png" alt='logo' height={75} width={75} />
         </Link>
