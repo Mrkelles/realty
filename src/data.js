@@ -10,7 +10,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/XWWpde1.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -28,7 +28,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/RJH6vhO.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -46,7 +46,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/rSbgl6r.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -64,7 +64,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/34NUHIZ.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -82,7 +82,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/TUsoFG8.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -100,7 +100,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/dQrsFNj.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -118,7 +118,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/fVHrqxY.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -136,7 +136,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/Oxs3yri.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -154,7 +154,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/f6VzBK1.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -172,7 +172,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/9XYR7Ch.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -190,7 +190,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/6Y3uKsG.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -208,7 +208,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/cAqFSOK.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -226,7 +226,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/SkQaAzV.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -244,7 +244,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/aGHInZB.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -262,7 +262,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/gEuATEz.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -280,7 +280,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/65oHEnd.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -298,7 +298,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/kJg7Uyn.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -316,7 +316,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/JxaBQuA.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -334,7 +334,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/W87GcZ9.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
@@ -352,7 +352,7 @@ export const housesData = [
     imageLg: "https://i.imgur.com/fojiWHT.jpg",
     city: 'Benin City',
     address: 'Okeze, Utekon, Ovia N.E 302117',
-    surface: '100 sq ft',
+    surface: '100 X 100',
     price: '1,600,000',
     agent: {
       image: "https://i.imgur.com/ToZMnh3.png",
